@@ -2,7 +2,7 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'cph-submit-plus') {
         console.log('[CPH Submit Pro]: Received submission request');
-
+        if(message.payload.sourceCode == '' || message.payload.languageId == -1) return;
         // Select language dropdown and set value
         const languageSelect = document.querySelector('select[name="programTypeId"]');
         if (languageSelect) {
