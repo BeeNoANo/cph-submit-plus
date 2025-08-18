@@ -1,8 +1,7 @@
-import log from "./log";
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'cph-submit-plus') {
-        log('Received submission request');
+        console.log('[CPH Submit Pro]: Received submission request');
 
         // Select language dropdown and set value
         const languageSelect = document.querySelector('select[name="programTypeId"]');
@@ -13,13 +12,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
         // Set source code in textarea
         const codeTextarea = document.getElementById('sourceCodeTextarea');
-        console.log(codeTextarea);
         if (codeTextarea) {
             codeTextarea.value = message.payload.sourceCode;
             codeTextarea.textContent = message.payload.sourceCode;
-
         } else {
-            log("CodeTextarea not found!")
+            console.log('[CPH Submit Pro]: CodeTextarea not found!')
         }
 
         // Click submit button
