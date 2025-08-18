@@ -26,8 +26,8 @@ I experienced the same issue. Since it was annoying and I had some free time, I 
 
 > You can also find video tutorials on YouTube if needed.
 
-## Bugs :)?
-If it doesn't work, try opening the extension's Inspect views, somehow it works ;-;
+## Note
+You must submit with any codeforces tab open on the screen for the utility to work.
 
 ## Usage
 
