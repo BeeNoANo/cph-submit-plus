@@ -26,6 +26,9 @@ I experienced the same issue. Since it was annoying and I had some free time, I 
 
 > You can also find video tutorials on YouTube if needed.
 
+## Bugs :)?
+If it doesn't work, try opening the extension's Inspect views, somehow it works ;-;
+
 ## Usage
 
 Once installed, the extension should work similarly to `cph-submit`, allowing you to submit code directly from supported coding platforms.
