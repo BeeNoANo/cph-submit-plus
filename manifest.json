@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Cph Submit Plus",
+  "version": "1.0",
+  "description": "Codeforces Submit add-on for Competitive Programming Helper (Fixed some bug, I think that :))) base on Cph-Submi",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "host_permissions": [
+    "*://codeforces.com/*",
+    "http://localhost:27121/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://codeforces.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
