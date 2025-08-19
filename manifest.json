@@ -16,7 +16,8 @@
   ],
   "background": {
     "service_worker": "background.js",
-    "type": "module"
+    "type": "module",
+    "persistence": "persistent"
   },
   "content_scripts": [
     {
