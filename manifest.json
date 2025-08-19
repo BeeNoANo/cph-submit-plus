@@ -5,7 +5,8 @@
   "description": "Codeforces Submit add-on for Competitive Programming Helper (Fixed some bug, I think that :))) base on Cph-Submi",
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "webRequest"
   ],
   "icons": {
     "48": "icon-48.png"
