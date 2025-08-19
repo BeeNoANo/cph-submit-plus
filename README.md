@@ -27,7 +27,7 @@ I experienced the same issue. Since it was annoying and I had some free time, I 
 > You can also find video tutorials on YouTube if needed.
 
 ## Note
-You must submit with any codeforces tab open on the screen for the utility to work.
+You must submit with any codeforces tab open on the screen for the utility to work. If not working, open your extensions manager and click Inspect views *service worker (Inactive)*
 
 ## Usage
 
