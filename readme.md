@@ -1,9 +1,12 @@
-# ![ICON](icon-48.png) cph-submit
+# ![ICON](icon-48.png) cph-submit-plus
 
 Browser add on that enables Codeforces submit with
 [Competitive Programming Helper](https://github.com/agrawal-d/cph)
 
 Available for Firefox and Google Chrome.
+
+## New
+Fix error with contest in group
 
 ## Installation
 
